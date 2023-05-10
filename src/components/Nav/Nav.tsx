@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import "./Nav.css";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -7,21 +8,19 @@ function Nav() {
       <div className="nav">
         <ul>
           <li>
-            <a className="active" href="#home">
-              keebtracker.jhondle
-            </a>
+            <NavLink to="/">keebtracker.jhondle</NavLink>
           </li>
           <li>
-            <a href="#news">builds</a>
+            <NavLink to="/builds">builds</NavLink>
           </li>
           <li>
-            <a href="#contact">parts</a>
+            <NavLink to="/parts">parts</NavLink>
           </li>
           <li>
-            <a href="#about">wishlist</a>
+            <NavLink to="/wishlist">wishlist</NavLink>
           </li>
           <li>
-            <a href="#about">sold</a>
+            <NavLink to="/sold">sold</NavLink>
           </li>
         </ul>
       </div>

@@ -33,6 +33,11 @@ li a:hover {
     color: #cf6a4c;
 }
 
+li a.active {
+  color:#525252;
+  
+}
+
 li:nth-child(2) {
   margin-left: 25%;
 }
