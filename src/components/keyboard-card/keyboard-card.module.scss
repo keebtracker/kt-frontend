@@ -48,12 +48,18 @@
   grid-template-rows: 1fr 1fr;
 }
 .build-title {
-  align-self: end;
   font-weight: 700;
+  align-self: end;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 .cost-title {
-  align-self: start;
   font-weight: 700;
+  align-self: start;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 .build-name {
   align-self: end;
