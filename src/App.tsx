@@ -8,6 +8,7 @@ import Parts from './pages/parts';
 import Wishlist from './pages/wishlist';
 import Sold from './pages/sold';
 
+
 function App() {
   return (
     <Router>
