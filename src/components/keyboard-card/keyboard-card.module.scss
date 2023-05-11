@@ -1,0 +1,73 @@
+.card {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: #0e0e0f;
+  border-radius: 20px;
+  overflow: hidden;
+  align-self: center;
+  position: relative;
+  top: auto;
+  font-weight: 200;
+  font-family: 'Fira Code', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-image: none;
+  background-position: 52% 3%;
+  background-size: 200% 200%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  color: #e1e3e4;
+  flex-direction: column;
+}
+.keeb-picture {
+  overflow: hidden;
+  display: block;
+  align-self: start;
+  min-width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+.description {
+  height: inherit;
+  padding: 5px 20px;
+  max-height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+}
+.left-desc {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.right-desc {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.build-title {
+  font-weight: 700;
+  align-self: end;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.cost-title {
+  font-weight: 700;
+  align-self: start;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.build-name {
+  align-self: end;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+.price {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
