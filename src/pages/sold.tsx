@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Nav from "../components/Nav/Nav";
 
 function Sold() {
