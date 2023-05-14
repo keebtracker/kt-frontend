@@ -14,7 +14,7 @@ function Nav() {
             <NavLink to="/builds">builds</NavLink>
           </li>
           <li>
-            <NavLink to="/parts">parts</NavLink>
+            <NavLink to="/userParts">user parts</NavLink>
           </li>
           <li>
             <NavLink to="/wishlist">wishlist</NavLink>
