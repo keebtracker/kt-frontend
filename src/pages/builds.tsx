@@ -4,7 +4,7 @@ function Builds() {
   return (
     <div className="App">
       <Nav />
-      <header className="App-header">build page</header>
+      <header className="App-header text-3xl font-bold underline">build page</header>
     </div>
   );
 }
